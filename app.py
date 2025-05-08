@@ -58,7 +58,7 @@ with tab1:
     st.write("此列线图用于根据多个临床变量（如年龄、BMI、子宫内膜厚度等）预测活产率。通过对各项指标的综合评估，可以为患者提供个性化的预测结果。")
     
     # 显示图片
-    image_path = "e:\\R语言-建模\\代做代码合集\\Shiny\\www\\ab5c9664600fe024393b44e6825794c.png"
+    image_path = "ab5c9664600fe024393b44e6825794c.png"
     if os.path.exists(image_path):
         image = Image.open(image_path)
         st.markdown('<div class="img-container">', unsafe_allow_html=True)
